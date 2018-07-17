@@ -11,3 +11,28 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  homegroundsco
 */
+
+.pick1{
+	border: 1px solid #594f4f;
+	border-radius: 14px;
+}
+.our1pick{
+	margin-top: 10px !important;
+    margin-bottom: -7px !important;
+    padding-left: 14px !important;
+    width: 55%;
+    margin-left: -1%;
+  	-webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  	clip-path: polygon(0 0, 0 100%, 85% 100%, 100% 50%, 85% 0);
+  	background: red;
+}
+.our1pick p{
+	color: rgb(255, 255, 255) !important;
+    font-size: 23px !important;
+    padding: 6% 3%;
+}
+.col1{
+	float: left;
+	width: 50%;
+    height: auto;
+}
