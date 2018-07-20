@@ -13,6 +13,14 @@
 */
 
 /* ==========================================================================
+   Sections
+   ========================================================================== */
+
+.generate-sections-container{
+  background: #ffffff;
+}
+
+/* ==========================================================================
    POST: The 5 Best Coffee Subscription Boxes of 2018 (+ a Coffee Of The Month Club You Should Avoid)
    ========================================================================== */
 
@@ -44,6 +52,37 @@
 	float: left;
 	width: 50%;
   height: auto;
+}
+
+/* ==========================================================================
+   Grinding
+   ========================================================================== */
+
+.column {
+  float: left;
+  width: 49%;
+  margin: 1% 0%;
+  padding: 5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.grind_your_coffee_perfectly {
+  width: 60%;
+  align-content: center;
+  margin: 0 auto;
+}
+.common_coffee {
+  background: #E5FCC2;
+  padding: 1em 2em;
+  margin: 2em 0;
+}
+
+.common_coffee ul {
+  padding: 0.5em 0;
 }
 
 /* ==========================================================================
