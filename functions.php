@@ -11,7 +11,11 @@ function my_theme_enqueue_styles() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
- 
+
+function your_theme_js() {
+    wp_enqueue_script( 'theme_js', get_stylesheet_directory_uri() . '/java1.js', array( 'jquery' ), '1.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'your_theme_js' );
 
 if ( ! function_exists( 'generate_content_nav' ) ) :
 /**
@@ -69,38 +73,6 @@ endif; // generate_content_nav
 
 
 
-if ( ! function_exists( 'generate_archive_title' ) ) :
-/**
- * Build the archive title
- *
- * @since 1.3.24
- */
-add_action( 'generate_archive_title','generate_archive_title' );
-function generate_archive_title()
-{
-	?>
-	<header class="page-header<?php if ( is_author() ) echo ' clearfix';?>">
-
-		<?php do_action( 'generate_before_archive_title' ); ?>
-		<h4 class="archive-title">Archive</h4>
-			<span><li class="description-recipe">Category Archives For "<?php single_cat_title();?>"</li></span>
-		<?php do_action( 'generate_after_archive_title' ); ?>
-		<?php
-			// Show an optional term description.
-			$term_description = term_description();
-			if ( ! empty( $term_description ) ) :
-				printf( '<div class="taxonomy-description">%s</div>', $term_description );
-			endif;
-			
-			if ( get_the_author_meta('description') && is_author() ) : // If a user has filled out their decscription show a bio on their entries
-				echo '<div class="author-info">' . get_the_author_meta('description') . '</div>';
-			endif;
-		?>
-		<?php do_action( 'generate_after_archive_description' ); ?>
-	</header><!-- .page-header -->
-	<?php
-}
-endif;
 
 
 

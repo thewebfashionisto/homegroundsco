@@ -54,12 +54,6 @@ div.space2{
 
 
 
-.grid-33 {
-    width: 100%; 
-}
-
-
-
 .nav-links{
   padding: 20px;
   position: relative;
@@ -104,55 +98,6 @@ span.dots{
   }
 
 
-li.description-recipe{
-list-style-type:none; 
-}
-
-
-h4.archive-title{
-  font-size: 1.400em;
-  margin: 18px 0 9px 0;
-}
-
-li.description-recipe{
-  font-style:italic;
-}
-
-.separate-containers .inside-right-sidebar {
-  position: relative;
-  width:350px;
-}
-
-.widget_search .search-submit {
-    background: url(http://localhost/homegrounds/wp-content/uploads/2018/07/sprite-web.png) #7b7b7b -25px 5px;
-    display:block;
-    position: absolute;
-    width: 40x;
-    height: 44px;
-    top:40px;
-    left:15em;
-    
-}
-
-.widget_search .search-submit:hover {
-    background: url(http://localhost/homegrounds/wp-content/uploads/2018/07/sprite-web.png) #7b7b7b -25px 5px;
-    cursor:pointer;
-    position: absolute;
-    width: 40x;
-     height: 44px;
-    top:40px;
-    left:15em;
-}
-
-input.search-field{
-font-size:15px;
-}
-
-.generate-columns .inside-article {
-  margin-top:25px ;
-}
-
-/* END OF ARCHIVE PAGE */
 
 /* COFFEE BEANS PAGE */
 
