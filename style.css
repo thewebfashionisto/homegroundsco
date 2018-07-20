@@ -1,15 +1,15 @@
 /*
- Theme Name:   Home Grounds Co
- Theme URI:    https://generatepress.com/
- Description:  GeneratePress Child Theme
- Author:       NOW Outsourcing Services, Inc.
- Author URI:   http://nowcandoit.com
- Template:     generatepress
- Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  homegroundsco
+  Theme Name:   Home Grounds Co
+  Theme URI:    https://generatepress.com/
+  Description:  GeneratePress Child Theme
+  Author:       NOW Outsourcing Services, Inc.
+  Author URI:   http://nowcandoit.com
+  Template:     generatepress
+  Version:      1.0.0
+  License:      GNU General Public License v2 or later
+  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+  Text Domain:  homegroundsco
 */
 
 /* ==========================================================================
@@ -19,31 +19,74 @@
 /* Our #1 Pick */
 
 .pick1  {
-	border: 1px solid #594f4f;
+  border: 1px solid #594f4f;
 	border-radius: 14px;
 }
 
 .our1pick {
 	margin-top: 10px !important;
-    margin-bottom: -7px !important;
-    padding-left: 14px !important;
-    width: 55%;
-    margin-left: -1%;
-  	-webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
-  	clip-path: polygon(0 0, 0 100%, 85% 100%, 100% 50%, 85% 0);
-  	background: red;
+  margin-bottom: -7px !important;
+  padding-left: 14px !important;
+  width: 55%;
+  margin-left: -1%;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 85% 100%, 100% 50%, 85% 0);
+  background: red;
 }
 
 .our1pick p {
 	color: rgb(255, 255, 255) !important;
-    font-size: 23px !important;
-    padding: 6% 3%;
+  font-size: 23px !important;
+  padding: 6% 3%;
 }
 
 .col1 {
 	float: left;
 	width: 50%;
-    height: auto;
+  height: auto;
+}
+
+/* ==========================================================================
+   Grid Post
+   ========================================================================== */
+
+.pt-cv-title a {
+  font-family: "Montserrat", sans-serif;
+}
+
+.pt-cv-content, .pt-cv-content {
+  font-weight: normal;
+}
+
+.pt-cv-wrapper .btn-success {
+  border: 0;
+  padding: 0;
+  color: #45ada8;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pt-cv-wrapper .btn-success:hover {
+  color: #547980;
+  background-color: transparent;
+}
+
+/* ==========================================================================
+   Grid Review Post
+   ========================================================================== */
+
+.pt-cv-wrapper .col-md-6 .btn-success{
+  background-color: #45ada8;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 0;
+}
+
+.pt-cv-wrapper .col-md-6 .btn-success:hover{
+  background-color: #547980;
 }
 
 /* ==========================================================================
