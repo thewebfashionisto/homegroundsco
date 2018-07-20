@@ -1,4 +1,4 @@
-/*
+
  Theme Name:   Home Grounds Co
  Theme URI:    https://generatepress.com/
  Description:  GeneratePress Child Theme
@@ -66,4 +66,55 @@
 }
 .common_coffee ul{
   padding: 0.5em 0;
+}
+
+/*--------------------------*/
+
+/*Cold Brew*/
+.row_3_col:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.row_3_col{
+  background: #E5FCC2;
+  padding: 1em 2em;
+  margin: 2em 0;
+}
+ .cold_brew_column3{
+    width: 40%;
+    float: left;
+    border-left: 2px solid #00000038;
+}
+.cold_brew_column1{
+    width: 40%;
+    float: left;
+    border-right: 2px solid #00000038;
+}
+.cold_brew_column2{
+    width: 16%;
+    float: left;
+    font-size: 50px;
+    padding: 2em 0em;
+    text-align: center;
+
+}
+.cold_brew_column4{
+  width: 30%;
+  float: left;
+  padding: 3em 0;
+}
+.cold_brew_column5{
+  width: 30%;
+  float: left;
+  padding: 3em 0;
+}
+.cold_brew_column6{
+  width: 30%;
+  float: left;
+}
+.cold_brew_image{
+  height: auto;
+  width: 150px;
+  margin: 30px 50px;
 }
