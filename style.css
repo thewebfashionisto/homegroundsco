@@ -36,3 +36,130 @@
 	width: 50%;
     height: auto;
 }
+
+
+
+
+/* ARCHIVE PAGE */
+
+
+
+div.space{
+      height: 30px;
+}
+
+div.space2{
+      height: 30px;
+}
+
+
+
+.grid-33 {
+    width: 100%; 
+}
+
+
+
+.nav-links{
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  
+}
+
+
+.nav-links span.page-numbers.current{
+    background: #3f3f3f;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 11px;
+    border: 1px solid #a7a6a6;
+  }
+
+.nav-links a.page-numbers{
+  padding: 6px 11px;
+  position: relative;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #a7a6a6;
+   color: #594f4f;
+}
+
+
+.nav-links a:hover{
+   background: #3f3f3f;
+   color: #fff;
+}
+
+span.dots{
+  padding: 6px 11px;
+  border: 1px solid #a7a6a6;
+}
+
+.nav-links .current {
+    padding: 6px 11px;
+    background: #f1913c;
+    color: #fff;
+    border: 1px solid #a7a6a6;
+  }
+
+
+li.description-recipe{
+list-style-type:none; 
+}
+
+
+h4.archive-title{
+  font-size: 1.400em;
+  margin: 18px 0 9px 0;
+}
+
+li.description-recipe{
+  font-style:italic;
+}
+
+.separate-containers .inside-right-sidebar {
+  position: relative;
+  width:350px;
+}
+
+.widget_search .search-submit {
+    background: url(http://localhost/homegrounds/wp-content/uploads/2018/07/sprite-web.png) #7b7b7b -25px 5px;
+    display:block;
+    position: absolute;
+    width: 40x;
+    height: 44px;
+    top:40px;
+    left:15em;
+    
+}
+
+.widget_search .search-submit:hover {
+    background: url(http://localhost/homegrounds/wp-content/uploads/2018/07/sprite-web.png) #7b7b7b -25px 5px;
+    cursor:pointer;
+    position: absolute;
+    width: 40x;
+     height: 44px;
+    top:40px;
+    left:15em;
+}
+
+input.search-field{
+font-size:15px;
+}
+
+.generate-columns .inside-article {
+  margin-top:25px ;
+}
+
+/* END OF ARCHIVE PAGE */
+
+/* COFFEE BEANS PAGE */
+
+.coffee-beans{
+  margin-top: 5em;
+}
+
+
+
+/* END OF COFFEE BEANS PAGE */
