@@ -12,7 +12,9 @@
  Text Domain:  homegroundsco
 */
 
-.pick1{
+
+/*POST: The 5 Best Coffee Subscription Boxes of 2018 (+ a Coffee Of The Month Club You Should Avoid) */
+.pick1 /*Our #1 Pick*/{
 	border: 1px solid #594f4f;
 	border-radius: 14px;
 }
@@ -36,3 +38,4 @@
 	width: 50%;
     height: auto;
 }
+/*-----------------------*/
