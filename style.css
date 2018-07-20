@@ -108,3 +108,7 @@ span.dots{
 
 
 /* END OF COFFEE BEANS PAGE */
+
+.inside-header {
+    display:none;
+} 
