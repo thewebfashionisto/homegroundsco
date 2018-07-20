@@ -76,6 +76,44 @@
   background-color: transparent;
 }
 
+/*Hover post featured image style*/
+.pt-cv-thumbnail{
+  margin-bottom: 0;
+}
+a.pt-cv-href-thumbnail{
+  display: block;
+  position: relative;
+}
+a.pt-cv-href-thumbnail::before {
+    content: "";
+    z-index: 9;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(69, 173, 168, 0.3);
+}
+a.pt-cv-href-thumbnail::after{
+  position: absolute;
+  z-index: 9;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  content: "\e601";
+  font-family: 'thrvicomoon' !important;
+  line-height: 1;
+  background-color: #45ada8;
+  padding: 10px;
+  opacity: 0;
+} 
+.pt-cv-content-item:hover a.pt-cv-href-thumbnail:before,
+.pt-cv-content-item:hover a.pt-cv-href-thumbnail:after{
+  opacity: 1;
+  -webkit-transition: opacity .4s linear;
+  -o-transition: opacity .4s linear;
+  transition: opacity .4s linear;
+}
+
 /* ==========================================================================
    Footer Section
    ========================================================================== */
