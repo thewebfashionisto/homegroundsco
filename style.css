@@ -66,27 +66,14 @@
   background-color: transparent;
   font-family: "Montserrat", sans-serif;
 }
+/*Fontawesome icon style*/
+.pt-cv-wrapper .btn-success .fas{
+  font-size: 11px;
+}
 
 .pt-cv-wrapper .btn-success:hover {
   color: #547980;
   background-color: transparent;
-}
-
-/* ==========================================================================
-   Grid Review Post
-   ========================================================================== */
-
-.pt-cv-wrapper .col-md-6 .btn-success{
-  background-color: #45ada8;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 18px;
-  padding: 10px 20px;
-  border-radius: 0;
-}
-
-.pt-cv-wrapper .col-md-6 .btn-success:hover{
-  background-color: #547980;
 }
 
 /* ==========================================================================
