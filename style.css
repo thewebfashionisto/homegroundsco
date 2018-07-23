@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+
+ Theme Name:   Home Grounds Co
+ Theme URI:    https://generatepress.com/
+ Description:  GeneratePress Child Theme
+ Author:       NOW Outsourcing Services, Inc.
+ Author URI:   http://nowcandoit.com
+ Template:     generatepress
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  homegroundsco
+=======
 /*
   Theme Name:   Home Grounds Co
   Theme URI:    https://generatepress.com/
@@ -10,6 +24,7 @@
   License URI:  http://www.gnu.org/licenses/gpl-2.0.html
   Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
   Text Domain:  homegroundsco
+>>>>>>> a757794d0d49850d2ebcd130a44a0b00236fd400
 */
 
 /* ==========================================================================
@@ -85,6 +100,57 @@
   padding: 0.5em 0;
 }
 
+<<<<<<< HEAD
+/*--------------------------*/
+
+/*Cold Brew*/
+.row_3_col:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.row_3_col{
+  background: #E5FCC2;
+  padding: 1em 2em;
+  margin: 2em 0;
+}
+ .cold_brew_column3{
+    width: 40%;
+    float: left;
+    border-left: 2px solid #00000038;
+}
+.cold_brew_column1{
+    width: 40%;
+    float: left;
+    border-right: 2px solid #00000038;
+}
+.cold_brew_column2{
+    width: 16%;
+    float: left;
+    font-size: 50px;
+    padding: 2em 0em;
+    text-align: center;
+
+}
+.cold_brew_column4{
+  width: 30%;
+  float: left;
+  padding: 3em 0;
+}
+.cold_brew_column5{
+  width: 30%;
+  float: left;
+  padding: 3em 0;
+}
+.cold_brew_column6{
+  width: 30%;
+  float: left;
+}
+.cold_brew_image{
+  height: auto;
+  width: 150px;
+  margin: 30px 50px;
+=======
 /* ==========================================================================
    Grid Post
    ========================================================================== */
@@ -169,4 +235,5 @@ a.pt-cv-href-thumbnail::after{
   float: none;
   text-align: center !important;
   width: 340px !important;
+>>>>>>> a757794d0d49850d2ebcd130a44a0b00236fd400
 }
