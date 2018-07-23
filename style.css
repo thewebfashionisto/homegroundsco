@@ -10,8 +10,68 @@
   License URI:  http://www.gnu.org/licenses/gpl-2.0.html
   Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
   Text Domain:  homegroundsco
->>>>>>> a757794d0d49850d2ebcd130a44a0b00236fd400
 */
+
+/* ==========================================================================
+   Content Navigation
+   ========================================================================== */
+
+.nav-links{
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.nav-links span.page-numbers.current{
+    background: #3f3f3f;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 11px;
+    border: 1px solid #a7a6a6;
+  }
+
+.nav-links a.page-numbers{
+  padding: 6px 11px;
+  position: relative;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #a7a6a6;
+   color: #594f4f;
+}
+
+.nav-links a:hover{
+   background: #3f3f3f;
+   color: #fff;
+}
+
+span.dots{
+  padding: 6px 11px;
+  border: 1px solid #a7a6a6;
+}
+
+.nav-links .current {
+    padding: 6px 11px;
+    background: #f1913c;
+    color: #fff;
+    border: 1px solid #a7a6a6;
+  }
+
+.inside-header {
+    display:none;
+} 
+
+/* ==========================================================================
+   Custom Blurbs
+   ========================================================================== */
+
+.pick1 {
+  border: 1px solid #594f4f;
+  border-radius: 14px;
+}
+
+.our1pick {
+  margin-top: 10px !important;
+}
 
 /* ==========================================================================
    Sections
@@ -29,11 +89,11 @@
 
 .pick1  {
   border: 1px solid #594f4f;
-	border-radius: 14px;
+  border-radius: 14px;
 }
 
 .our1pick {
-	margin-top: 10px !important;
+  margin-top: 10px !important;
   margin-bottom: -7px !important;
   padding-left: 14px !important;
   width: 55%;
@@ -44,14 +104,17 @@
 }
 
 .our1pick p {
-	color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
   font-size: 23px !important;
   padding: 6% 3%;
 }
 
 .col1 {
-	float: left;
-	width: 50%;
+  float: left;
+  width: 50%;
+  float: left;
+  width: 50%;
   height: auto;
 }
 
@@ -86,10 +149,14 @@
   padding: 0.5em 0;
 }
 
-<<<<<<< HEAD
-/*--------------------------*/
+/* ==========================================================================
+   Grid Post
+   ========================================================================== */
 
-/*Cold Brew*/
+   /* ==========================================================================
+   Cold Brew
+   ==========================================================================*/
+
 .row_3_col:after{
   content: "";
   display: table;
@@ -137,9 +204,10 @@
   width: 150px;
   margin: 30px 50px;
 }
+
 /* ==========================================================================
-   Grid Post
-   ========================================================================== */
+   End Cold Brew
+   ==========================================================================*/
 
 .pt-cv-title a {
   font-family: "Montserrat", sans-serif;
@@ -158,26 +226,51 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.pt-cv-wrapper .btn-success .fas{
+  font-size: 11px;
+}
+
 .pt-cv-wrapper .btn-success:hover {
   color: #547980;
   background-color: transparent;
 }
 
-/* ==========================================================================
-   Grid Review Post
-   ========================================================================== */
-
-.pt-cv-wrapper .col-md-6 .btn-success{
-  background-color: #45ada8;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 18px;
-  padding: 10px 20px;
-  border-radius: 0;
+/*Hover post featured image style*/
+.pt-cv-thumbnail{
+  margin-bottom: 0;
 }
-
-.pt-cv-wrapper .col-md-6 .btn-success:hover{
-  background-color: #547980;
+a.pt-cv-href-thumbnail{
+  display: block;
+  position: relative;
+}
+a.pt-cv-href-thumbnail::before {
+    content: "";
+    z-index: 9;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(69, 173, 168, 0.3);
+}
+a.pt-cv-href-thumbnail::after{
+  position: absolute;
+  z-index: 9;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  content: "\e601";
+  font-family: 'thrvicomoon' !important;
+  line-height: 1;
+  background-color: #45ada8;
+  padding: 10px;
+  opacity: 0;
+} 
+.pt-cv-content-item:hover a.pt-cv-href-thumbnail:before,
+.pt-cv-content-item:hover a.pt-cv-href-thumbnail:after{
+  opacity: 1;
+  -webkit-transition: opacity .4s linear;
+  -o-transition: opacity .4s linear;
+  transition: opacity .4s linear;
 }
 
 /* ==========================================================================
@@ -194,6 +287,6 @@
 
 .footer-widget-2 .norm_row {
   float: none;
-  text-align: center !important;0
+  text-align: center !important;
   width: 340px !important;
 }
