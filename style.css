@@ -65,12 +65,12 @@ span.dots{
    ========================================================================== */
 
 .pick1 {
-	border: 1px solid #594f4f;
-	border-radius: 14px;
+  border: 1px solid #594f4f;
+  border-radius: 14px;
 }
 
 .our1pick {
-	margin-top: 10px !important;
+  margin-top: 10px !important;
 }
 
 /* ==========================================================================
@@ -104,15 +104,15 @@ span.dots{
 }
 
 .our1pick p {
-	color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
   color: rgb(255, 255, 255) !important;
   font-size: 23px !important;
   padding: 6% 3%;
 }
 
 .col1 {
-	float: left;
-	width: 50%;
+  float: left;
+  width: 50%;
   float: left;
   width: 50%;
   height: auto;

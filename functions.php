@@ -84,5 +84,5 @@ function generate_content_nav( $nav_id ) {
 	</nav><!-- #<?php echo esc_html( $nav_id ); ?> -->
 	<?php
 }
-endif; // generate_content_nav
+endif; // generate_content_nav 
 ?>
