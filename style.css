@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-
- Theme Name:   Home Grounds Co
- Theme URI:    https://generatepress.com/
- Description:  GeneratePress Child Theme
- Author:       NOW Outsourcing Services, Inc.
- Author URI:   http://nowcandoit.com
- Template:     generatepress
- Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  homegroundsco
-=======
 /*
   Theme Name:   Home Grounds Co
   Theme URI:    https://generatepress.com/
@@ -24,7 +10,6 @@
   License URI:  http://www.gnu.org/licenses/gpl-2.0.html
   Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
   Text Domain:  homegroundsco
->>>>>>> a757794d0d49850d2ebcd130a44a0b00236fd400
 */
 
 /* ==========================================================================
@@ -43,11 +28,11 @@
 
 .pick1  {
   border: 1px solid #594f4f;
-	border-radius: 14px;
+  border-radius: 14px;
 }
 
 .our1pick {
-	margin-top: 10px !important;
+  margin-top: 10px !important;
   margin-bottom: -7px !important;
   padding-left: 14px !important;
   width: 55%;
@@ -58,14 +43,14 @@
 }
 
 .our1pick p {
-	color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
   font-size: 23px !important;
   padding: 6% 3%;
 }
 
 .col1 {
-	float: left;
-	width: 50%;
+  float: left;
+  width: 50%;
   height: auto;
 }
 
@@ -100,57 +85,6 @@
   padding: 0.5em 0;
 }
 
-<<<<<<< HEAD
-/*--------------------------*/
-
-/*Cold Brew*/
-.row_3_col:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-.row_3_col{
-  background: #E5FCC2;
-  padding: 1em 2em;
-  margin: 2em 0;
-}
- .cold_brew_column3{
-    width: 40%;
-    float: left;
-    border-left: 2px solid #00000038;
-}
-.cold_brew_column1{
-    width: 40%;
-    float: left;
-    border-right: 2px solid #00000038;
-}
-.cold_brew_column2{
-    width: 16%;
-    float: left;
-    font-size: 50px;
-    padding: 2em 0em;
-    text-align: center;
-
-}
-.cold_brew_column4{
-  width: 30%;
-  float: left;
-  padding: 3em 0;
-}
-.cold_brew_column5{
-  width: 30%;
-  float: left;
-  padding: 3em 0;
-}
-.cold_brew_column6{
-  width: 30%;
-  float: left;
-}
-.cold_brew_image{
-  height: auto;
-  width: 150px;
-  margin: 30px 50px;
-=======
 /* ==========================================================================
    Grid Post
    ========================================================================== */
@@ -235,5 +169,62 @@ a.pt-cv-href-thumbnail::after{
   float: none;
   text-align: center !important;
   width: 340px !important;
->>>>>>> a757794d0d49850d2ebcd130a44a0b00236fd400
 }
+
+
+
+
+/* CONTENT NAVIGATION  */
+
+
+.nav-links{
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  
+}
+
+
+.nav-links span.page-numbers.current{
+    background: #3f3f3f;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 11px;
+    border: 1px solid #a7a6a6;
+  }
+
+.nav-links a.page-numbers{
+  padding: 6px 11px;
+  position: relative;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #a7a6a6;
+   color: #594f4f;
+}
+
+
+.nav-links a:hover{
+   background: #3f3f3f;
+   color: #fff;
+}
+
+span.dots{
+  padding: 6px 11px;
+  border: 1px solid #a7a6a6;
+}
+
+.nav-links .current {
+    padding: 6px 11px;
+    background: #f1913c;
+    color: #fff;
+    border: 1px solid #a7a6a6;
+  }
+/* END OF CONTENT NAVIGATION */
+
+
+/* REMOVE HEADER IN EVERY PAGE */
+.inside-header {
+    display:none;
+} 
+
+/* END OF REMOVE HEADER*/
