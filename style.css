@@ -12,7 +12,58 @@
   Text Domain:  homegroundsco
 */
 
-<<<<<<< HEAD
+/* ==========================================================================
+   Content Navigation
+   ========================================================================== */
+
+.nav-links{
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.nav-links span.page-numbers.current{
+    background: #3f3f3f;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 11px;
+    border: 1px solid #a7a6a6;
+  }
+
+.nav-links a.page-numbers{
+  padding: 6px 11px;
+  position: relative;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #a7a6a6;
+   color: #594f4f;
+}
+
+.nav-links a:hover{
+   background: #3f3f3f;
+   color: #fff;
+}
+
+span.dots{
+  padding: 6px 11px;
+  border: 1px solid #a7a6a6;
+}
+
+.nav-links .current {
+    padding: 6px 11px;
+    background: #f1913c;
+    color: #fff;
+    border: 1px solid #a7a6a6;
+  }
+
+.inside-header {
+    display:none;
+} 
+
+/* ==========================================================================
+   Custom Blurbs
+   ========================================================================== */
+
 .pick1 {
 	border: 1px solid #594f4f;
 	border-radius: 14px;
@@ -20,7 +71,8 @@
 
 .our1pick {
 	margin-top: 10px !important;
-=======
+}
+
 /* ==========================================================================
    Sections
    ========================================================================== */
@@ -42,7 +94,6 @@
 
 .our1pick {
   margin-top: 10px !important;
->>>>>>> origin/master
   margin-bottom: -7px !important;
   padding-left: 14px !important;
   width: 55%;
@@ -53,29 +104,21 @@
 }
 
 .our1pick p {
-<<<<<<< HEAD
 	color: rgb(255, 255, 255) !important;
-=======
   color: rgb(255, 255, 255) !important;
->>>>>>> origin/master
   font-size: 23px !important;
   padding: 6% 3%;
 }
 
 .col1 {
-<<<<<<< HEAD
 	float: left;
 	width: 50%;
-=======
   float: left;
   width: 50%;
->>>>>>> origin/master
   height: auto;
 }
 
 /* ==========================================================================
-<<<<<<< HEAD
-=======
    Grinding
    ========================================================================== */
 
@@ -126,7 +169,7 @@
   background-color: transparent;
   font-family: "Montserrat", sans-serif;
 }
-/*Fontawesome icon style*/
+
 .pt-cv-wrapper .btn-success .fas{
   font-size: 11px;
 }
@@ -175,7 +218,6 @@ a.pt-cv-href-thumbnail::after{
 }
 
 /* ==========================================================================
->>>>>>> origin/master
    Footer Section
    ========================================================================== */
 
@@ -191,66 +233,4 @@ a.pt-cv-href-thumbnail::after{
   float: none;
   text-align: center !important;
   width: 340px !important;
-<<<<<<< HEAD
 }
-=======
-}
-
-
-
-
-/* CONTENT NAVIGATION  */
-
-
-.nav-links{
-  padding: 20px;
-  position: relative;
-  text-align: center;
-  
-}
-
-
-.nav-links span.page-numbers.current{
-    background: #3f3f3f;
-    color: #fff;
-    display: inline-block;
-    padding: 6px 11px;
-    border: 1px solid #a7a6a6;
-  }
-
-.nav-links a.page-numbers{
-  padding: 6px 11px;
-  position: relative;
-  text-align: center;
-  background: #ffffff;
-  border: 1px solid #a7a6a6;
-   color: #594f4f;
-}
-
-
-.nav-links a:hover{
-   background: #3f3f3f;
-   color: #fff;
-}
-
-span.dots{
-  padding: 6px 11px;
-  border: 1px solid #a7a6a6;
-}
-
-.nav-links .current {
-    padding: 6px 11px;
-    background: #f1913c;
-    color: #fff;
-    border: 1px solid #a7a6a6;
-  }
-/* END OF CONTENT NAVIGATION */
-
-
-/* REMOVE HEADER IN EVERY PAGE */
-.inside-header {
-    display:none;
-} 
-
-/* END OF REMOVE HEADER*/
->>>>>>> origin/master

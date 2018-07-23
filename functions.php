@@ -1,4 +1,7 @@
 <?php
+/* ==========================================================================
+   Initialize child theme
+   ========================================================================== */
 function my_theme_enqueue_styles() {
 
     $parent_style = 'parent-style'; // This is 'generatepress-style' for the GeneratePress Theme
@@ -12,25 +15,25 @@ function my_theme_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
-<<<<<<< HEAD
-=======
-/* Embed Fontawesome */
+/* ==========================================================================
+   Embed Fontawesome
+   ========================================================================== */
 function embedfontawesome() {
 	wp_enqueue_style( 'font-awesome', '//use.fontawesome.com/releases/v5.1.1/css/all.css', array(), '5.1.1' );
 }
 add_action( 'wp_enqueue_scripts', 'embedfontawesome' );
-/* End Embed Fontawesome */
 
-/* Custom JS */
+/* ==========================================================================
+   Custom JS
+   ========================================================================== */
 function your_theme_js() {
     wp_enqueue_script( 'theme_js', get_stylesheet_directory_uri() . '/js/custom.js', array( 'jquery' ), '1.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'your_theme_js' );
-/* End of Custom JS */
 
-
-
-/* Filter for Content Nav */
+/* ==========================================================================
+   Filter for Content Na
+   ========================================================================== */
 if ( ! function_exists( 'generate_content_nav' ) ) :
 /**
  * Display navigation to next/previous pages when applicable
@@ -82,9 +85,4 @@ function generate_content_nav( $nav_id ) {
 	<?php
 }
 endif; // generate_content_nav
-/*End of Filter for Content Nav */
-
-//This is Micah
-//try to commit
->>>>>>> origin/master
 ?>
