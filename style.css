@@ -81,10 +81,6 @@ span.dots{
   background: #ffffff;
 }
 
-/* ==========================================================================
-   POST: The 5 Best Coffee Subscription Boxes of 2018 (+ a Coffee Of The Month Club You Should Avoid)
-   ========================================================================== */
-
 /* Our #1 Pick */
 
 .pick1  {
@@ -153,12 +149,18 @@ span.dots{
    Grid Post
    ========================================================================== */
 
+h4.pt-cv-title {
+  font-size: 22px;
+  line-height: 1.5em;
+}
+
 .pt-cv-title a {
   font-family: "Montserrat", sans-serif;
 }
 
-.pt-cv-content, .pt-cv-content {
+.pt-cv-content {
   font-weight: normal;
+  margin-bottom: 25px;
 }
 
 .pt-cv-wrapper .btn-success {
@@ -168,26 +170,32 @@ span.dots{
   text-transform: uppercase;
   background-color: transparent;
   font-family: "Montserrat", sans-serif;
+  border: 1px solid;
+  border-radius: 0;
+  padding: 5px 22px;
+  margin-top: 25px;
 }
 
-.pt-cv-wrapper .btn-success .fas {
-  font-size: 11px;
-}
+  .pt-cv-wrapper .btn-success .fas {
+    font-size: 10px;
+  }
 
 .pt-cv-wrapper .btn-success:hover {
-  color: #547980;
-  background-color: transparent;
+  color: #FFF;
+  background-color: #45ada8;
+  border-color: #45ada8;
 }
 
-/*Hover post featured image style*/
+/* Hover post featured image style */
 
 .pt-cv-thumbnail {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 a.pt-cv-href-thumbnail{
   display: block;
   position: relative;
+  margin-bottom: 25px;
 }
 
 a.pt-cv-href-thumbnail::before {
@@ -220,6 +228,12 @@ a.pt-cv-href-thumbnail::after {
   -webkit-transition: opacity .4s linear;
   -o-transition: opacity .4s linear;
   transition: opacity .4s linear;
+}
+
+/* button, toggle, icons, etc. */
+.pt-cv-wrapper .btn-success.active.focus, .pt-cv-wrapper .btn-success:active, .pt-cv-wrapper .btn-success.active:focus, .pt-cv-wrapper .btn-success.active:hover, .pt-cv-wrapper .btn-success:active.focus, .pt-cv-wrapper .btn-success:active:focus, .pt-cv-wrapper .btn-success:active:hover, .pt-cv-wrapper .open>.dropdown-toggle.btn-success.focus, .pt-cv-wrapper .open>.dropdown-toggle.btn-success:focus, .pt-cv-wrapper .open>.dropdown-toggle.btn-success:hover {
+  background-color: transparent;
+  border-color: transparent;
 }
 
    /* ==========================================================================
