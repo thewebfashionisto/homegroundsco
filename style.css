@@ -1,17 +1,18 @@
 /*
- Theme Name:   Home Grounds Co
- Theme URI:    https://generatepress.com/
- Description:  GeneratePress Child Theme
- Author:       NOW Outsourcing Services, Inc.
- Author URI:   http://nowcandoit.com
- Template:     generatepress
- Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  homegroundsco
+  Theme Name:   Home Grounds Co
+  Theme URI:    https://generatepress.com/
+  Description:  GeneratePress Child Theme
+  Author:       NOW Outsourcing Services, Inc.
+  Author URI:   http://nowcandoit.com
+  Template:     generatepress
+  Version:      1.0.0
+  License:      GNU General Public License v2 or later
+  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+  Text Domain:  homegroundsco
 */
 
+<<<<<<< HEAD
 .pick1 {
 	border: 1px solid #594f4f;
 	border-radius: 14px;
@@ -19,6 +20,29 @@
 
 .our1pick {
 	margin-top: 10px !important;
+=======
+/* ==========================================================================
+   Sections
+   ========================================================================== */
+
+.generate-sections-container{
+  background: #ffffff;
+}
+
+/* ==========================================================================
+   POST: The 5 Best Coffee Subscription Boxes of 2018 (+ a Coffee Of The Month Club You Should Avoid)
+   ========================================================================== */
+
+/* Our #1 Pick */
+
+.pick1  {
+  border: 1px solid #594f4f;
+  border-radius: 14px;
+}
+
+.our1pick {
+  margin-top: 10px !important;
+>>>>>>> origin/master
   margin-bottom: -7px !important;
   padding-left: 14px !important;
   width: 55%;
@@ -29,18 +53,129 @@
 }
 
 .our1pick p {
+<<<<<<< HEAD
 	color: rgb(255, 255, 255) !important;
+=======
+  color: rgb(255, 255, 255) !important;
+>>>>>>> origin/master
   font-size: 23px !important;
   padding: 6% 3%;
 }
 
 .col1 {
+<<<<<<< HEAD
 	float: left;
 	width: 50%;
+=======
+  float: left;
+  width: 50%;
+>>>>>>> origin/master
   height: auto;
 }
 
 /* ==========================================================================
+<<<<<<< HEAD
+=======
+   Grinding
+   ========================================================================== */
+
+.column {
+  float: left;
+  width: 49%;
+  margin: 1% 0%;
+  padding: 5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.grind_your_coffee_perfectly {
+  width: 60%;
+  align-content: center;
+  margin: 0 auto;
+}
+.common_coffee {
+  background: #E5FCC2;
+  padding: 1em 2em;
+  margin: 2em 0;
+}
+
+.common_coffee ul {
+  padding: 0.5em 0;
+}
+
+/* ==========================================================================
+   Grid Post
+   ========================================================================== */
+
+.pt-cv-title a {
+  font-family: "Montserrat", sans-serif;
+}
+
+.pt-cv-content, .pt-cv-content {
+  font-weight: normal;
+}
+
+.pt-cv-wrapper .btn-success {
+  border: 0;
+  padding: 0;
+  color: #45ada8;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+/*Fontawesome icon style*/
+.pt-cv-wrapper .btn-success .fas{
+  font-size: 11px;
+}
+
+.pt-cv-wrapper .btn-success:hover {
+  color: #547980;
+  background-color: transparent;
+}
+
+/*Hover post featured image style*/
+.pt-cv-thumbnail{
+  margin-bottom: 0;
+}
+a.pt-cv-href-thumbnail{
+  display: block;
+  position: relative;
+}
+a.pt-cv-href-thumbnail::before {
+    content: "";
+    z-index: 9;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(69, 173, 168, 0.3);
+}
+a.pt-cv-href-thumbnail::after{
+  position: absolute;
+  z-index: 9;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  content: "\e601";
+  font-family: 'thrvicomoon' !important;
+  line-height: 1;
+  background-color: #45ada8;
+  padding: 10px;
+  opacity: 0;
+} 
+.pt-cv-content-item:hover a.pt-cv-href-thumbnail:before,
+.pt-cv-content-item:hover a.pt-cv-href-thumbnail:after{
+  opacity: 1;
+  -webkit-transition: opacity .4s linear;
+  -o-transition: opacity .4s linear;
+  transition: opacity .4s linear;
+}
+
+/* ==========================================================================
+>>>>>>> origin/master
    Footer Section
    ========================================================================== */
 
@@ -56,4 +191,66 @@
   float: none;
   text-align: center !important;
   width: 340px !important;
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+
+/* CONTENT NAVIGATION  */
+
+
+.nav-links{
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  
+}
+
+
+.nav-links span.page-numbers.current{
+    background: #3f3f3f;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 11px;
+    border: 1px solid #a7a6a6;
+  }
+
+.nav-links a.page-numbers{
+  padding: 6px 11px;
+  position: relative;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #a7a6a6;
+   color: #594f4f;
+}
+
+
+.nav-links a:hover{
+   background: #3f3f3f;
+   color: #fff;
+}
+
+span.dots{
+  padding: 6px 11px;
+  border: 1px solid #a7a6a6;
+}
+
+.nav-links .current {
+    padding: 6px 11px;
+    background: #f1913c;
+    color: #fff;
+    border: 1px solid #a7a6a6;
+  }
+/* END OF CONTENT NAVIGATION */
+
+
+/* REMOVE HEADER IN EVERY PAGE */
+.inside-header {
+    display:none;
+} 
+
+/* END OF REMOVE HEADER*/
+>>>>>>> origin/master
