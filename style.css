@@ -170,7 +170,7 @@ span.dots{
   font-family: "Montserrat", sans-serif;
 }
 
-.pt-cv-wrapper .btn-success .fas{
+.pt-cv-wrapper .btn-success .fas {
   font-size: 11px;
 }
 
@@ -180,13 +180,16 @@ span.dots{
 }
 
 /*Hover post featured image style*/
-.pt-cv-thumbnail{
+
+.pt-cv-thumbnail {
   margin-bottom: 0;
 }
+
 a.pt-cv-href-thumbnail{
   display: block;
   position: relative;
 }
+
 a.pt-cv-href-thumbnail::before {
     content: "";
     z-index: 9;
@@ -196,7 +199,8 @@ a.pt-cv-href-thumbnail::before {
     position: absolute;
     background: rgba(69, 173, 168, 0.3);
 }
-a.pt-cv-href-thumbnail::after{
+
+a.pt-cv-href-thumbnail::after {
   position: absolute;
   z-index: 9;
   right: 0;
@@ -209,12 +213,73 @@ a.pt-cv-href-thumbnail::after{
   padding: 10px;
   opacity: 0;
 } 
+
 .pt-cv-content-item:hover a.pt-cv-href-thumbnail:before,
-.pt-cv-content-item:hover a.pt-cv-href-thumbnail:after{
+.pt-cv-content-item:hover a.pt-cv-href-thumbnail:after {
   opacity: 1;
   -webkit-transition: opacity .4s linear;
   -o-transition: opacity .4s linear;
   transition: opacity .4s linear;
+}
+
+   /* ==========================================================================
+   Cold Brew
+   ==========================================================================*/
+
+.row_3_col:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row_3_col{
+  background: #E5FCC2;
+  padding: 1em 2em;
+  margin: 2em 0;
+}
+
+ .cold_brew_column3{
+    width: 40%;
+    float: left;
+    border-left: 2px solid #00000038;
+}
+
+.cold_brew_column1{
+    width: 40%;
+    float: left;
+    border-right: 2px solid #00000038;
+}
+
+.cold_brew_column2{
+    width: 16%;
+    float: left;
+    font-size: 50px;
+    padding: 2em 0em;
+    text-align: center;
+
+}
+
+.cold_brew_column4{
+  width: 30%;
+  float: left;
+  padding: 3em 0;
+}
+
+.cold_brew_column5{
+  width: 30%;
+  float: left;
+  padding: 3em 0;
+}
+
+.cold_brew_column6{
+  width: 30%;
+  float: left;
+}
+
+.cold_brew_image{
+  height: auto;
+  width: 150px;
+  margin: 30px 50px;
 }
 
 /* ==========================================================================
