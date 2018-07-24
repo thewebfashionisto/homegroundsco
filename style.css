@@ -300,11 +300,6 @@ a.pt-cv-href-thumbnail::after {
    Kenyan Coffee Post
    ========================================================================== */
 
-.kenyan_col1{
-  float: right;
-  width: 215px;
-  padding-left: 35px;
-}
 .kenya_coffe_image{
   width: auto;
 }
@@ -358,7 +353,31 @@ div.recipe-content{
   line-height: 1.5em;
 }
 
-
+/* ==========================================================================
+   brazilian Coffee Post
+   ========================================================================== */
+.fun_fact{
+  border-radius: 17px;
+  overflow: hidden;
+  border: 1px solid rgb(214, 214, 214) !important;
+  background-color: rgba(214, 214, 214, 0.17) !important;
+  margin: 2em 1em;
+}
+.fun_fact p{
+  padding: 12px 20px 0 155px;
+}
+.lgc-column{
+  height: auto;
+}
+.volcanica{
+  width: 95px;
+}
+.inside-grid-column img{
+  width: 170px;
+}
+.brazilian_button{
+  margin-top: 23%;
+}
 
 /* ==========================================================================
    Footer Section
