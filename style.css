@@ -81,10 +81,6 @@ span.dots{
   background: #ffffff;
 }
 
-/* ==========================================================================
-   POST: The 5 Best Coffee Subscription Boxes of 2018 (+ a Coffee Of The Month Club You Should Avoid)
-   ========================================================================== */
-
 /* Our #1 Pick */
 
 .pick1  {
@@ -153,13 +149,18 @@ span.dots{
    Grid Post
    ========================================================================== */
 
+h4.pt-cv-title {
+  font-size: 22px;
+  line-height: 1.5em;
+}
 
 .pt-cv-title a {
   font-family: "Montserrat", sans-serif;
 }
 
-.pt-cv-content, .pt-cv-content {
+.pt-cv-content {
   font-weight: normal;
+  margin-bottom: 25px;
 }
 
 .pt-cv-wrapper .btn-success {
@@ -169,25 +170,34 @@ span.dots{
   text-transform: uppercase;
   background-color: transparent;
   font-family: "Montserrat", sans-serif;
+  border: 1px solid;
+  border-radius: 0;
+  padding: 5px 22px;
+  margin-top: 25px;
 }
 
-.pt-cv-wrapper .btn-success .fas{
-  font-size: 11px;
-}
+  .pt-cv-wrapper .btn-success .fas {
+    font-size: 10px;
+  }
 
 .pt-cv-wrapper .btn-success:hover {
-  color: #547980;
-  background-color: transparent;
+  color: #FFF;
+  background-color: #45ada8;
+  border-color: #45ada8;
 }
 
-/*Hover post featured image style*/
-.pt-cv-thumbnail{
-  margin-bottom: 0;
+/* Hover post featured image style */
+
+.pt-cv-thumbnail {
+  margin-bottom: 0 !important;
 }
+
 a.pt-cv-href-thumbnail{
   display: block;
   position: relative;
+  margin-bottom: 25px;
 }
+
 a.pt-cv-href-thumbnail::before {
     content: "";
     z-index: 9;
@@ -197,7 +207,8 @@ a.pt-cv-href-thumbnail::before {
     position: absolute;
     background: rgba(69, 173, 168, 0.3);
 }
-a.pt-cv-href-thumbnail::after{
+
+a.pt-cv-href-thumbnail::after {
   position: absolute;
   z-index: 9;
   right: 0;
@@ -210,12 +221,19 @@ a.pt-cv-href-thumbnail::after{
   padding: 10px;
   opacity: 0;
 } 
+
 .pt-cv-content-item:hover a.pt-cv-href-thumbnail:before,
-.pt-cv-content-item:hover a.pt-cv-href-thumbnail:after{
+.pt-cv-content-item:hover a.pt-cv-href-thumbnail:after {
   opacity: 1;
   -webkit-transition: opacity .4s linear;
   -o-transition: opacity .4s linear;
   transition: opacity .4s linear;
+}
+
+/* button, toggle, icons, etc. */
+.pt-cv-wrapper .btn-success.active.focus, .pt-cv-wrapper .btn-success:active, .pt-cv-wrapper .btn-success.active:focus, .pt-cv-wrapper .btn-success.active:hover, .pt-cv-wrapper .btn-success:active.focus, .pt-cv-wrapper .btn-success:active:focus, .pt-cv-wrapper .btn-success:active:hover, .pt-cv-wrapper .open>.dropdown-toggle.btn-success.focus, .pt-cv-wrapper .open>.dropdown-toggle.btn-success:focus, .pt-cv-wrapper .open>.dropdown-toggle.btn-success:hover {
+  background-color: transparent;
+  border-color: transparent;
 }
 
    /* ==========================================================================
@@ -227,21 +245,25 @@ a.pt-cv-href-thumbnail::after{
   display: table;
   clear: both;
 }
+
 .row_3_col{
   background: #E5FCC2;
   padding: 1em 2em;
   margin: 2em 0;
 }
+
  .cold_brew_column3{
     width: 40%;
     float: left;
     border-left: 2px solid #00000038;
 }
+
 .cold_brew_column1{
     width: 40%;
     float: left;
     border-right: 2px solid #00000038;
 }
+
 .cold_brew_column2{
     width: 16%;
     float: left;
@@ -250,20 +272,24 @@ a.pt-cv-href-thumbnail::after{
     text-align: center;
 
 }
+
 .cold_brew_column4{
   width: 30%;
   float: left;
   padding: 3em 0;
 }
+
 .cold_brew_column5{
   width: 30%;
   float: left;
   padding: 3em 0;
 }
+
 .cold_brew_column6{
   width: 30%;
   float: left;
 }
+
 .cold_brew_image{
   height: auto;
   width: 150px;
@@ -274,16 +300,83 @@ a.pt-cv-href-thumbnail::after{
    Kenyan Coffee Post
    ========================================================================== */
 
-.kenyan_col1{
-  float: right;
-  width: 215px;
-  padding-left: 35px;
-}
 .kenya_coffe_image{
   width: auto;
 }
 .kenya_coffee_image img{
   width: 409px;
+}
+
+/* ==========================================================================
+  Single Post Page 1
+   ========================================================================== */
+
+div.recipe-box{
+  position: relative;
+  color: #424242;
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.4) 4px 6px 10px;
+  background-color: rgba(214, 214, 214, 0.43) !important;
+}
+
+div.recipe-title{
+  position: absolute;
+  margin-top: 12px !important;
+  margin-bottom: -7px !important;
+  padding-left: 14px !important;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+  width: 25%;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 85% 100%, 100% 50%, 85% 0);
+  background: rgb(69, 173, 168);
+  color:white;
+}
+
+div.recipe-content{
+  position:relative;
+  top:0;
+  left:0;
+  padding-top:5em;
+  padding-left:4em;
+  padding-right:1em;
+  font-size:15px;
+  line-height:3.5em;
+  background: none;
+}
+
+.recipe-list{
+  background-image:url(http://localhost/homegrounds/wp-content/uploads/2018/07/GG.png);
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  line-height: 1.5em;
+}
+
+/* ==========================================================================
+   brazilian Coffee Post
+   ========================================================================== */
+.fun_fact{
+  border-radius: 17px;
+  overflow: hidden;
+  border: 1px solid rgb(214, 214, 214) !important;
+  background-color: rgba(214, 214, 214, 0.17) !important;
+  margin: 2em 1em;
+}
+.fun_fact p{
+  padding: 12px 20px 0 155px;
+}
+.lgc-column{
+  height: auto;
+}
+.volcanica{
+  width: 95px;
+}
+.inside-grid-column img{
+  width: 170px;
+}
+.brazilian_button{
+  margin-top: 23%;
 }
 
 /* ==========================================================================
