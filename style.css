@@ -233,6 +233,7 @@ a.pt-cv-href-thumbnail::after {
   background: #E5FCC2;
   padding: 1em 2em;
   margin: 2em 0;
+  overflow: auto;
 }
 
  .cold_brew_column3{
@@ -334,9 +335,6 @@ div.recipe-content{
 }
 .volcanica{
   width: 95px;
-}
-.inside-grid-column img{
-  width: 170px;
 }
 .brazilian_button{
   margin-top: 23%;
