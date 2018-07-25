@@ -118,18 +118,6 @@ span.dots{
    Grinding
    ========================================================================== */
 
-.column {
-  float: left;
-  width: 49%;
-  margin: 1% 0%;
-  padding: 5px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 .grind_your_coffee_perfectly {
   width: 60%;
   align-content: center;
@@ -139,6 +127,7 @@ span.dots{
   background: #E5FCC2;
   padding: 1em 2em;
   margin: 2em 0;
+  overflow: auto;
 }
 
 .common_coffee ul {
@@ -240,12 +229,6 @@ a.pt-cv-href-thumbnail::after {
    Cold Brew
    ==========================================================================*/
 
-.row_3_col:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .row_3_col{
   background: #E5FCC2;
   padding: 1em 2em;
@@ -253,41 +236,21 @@ a.pt-cv-href-thumbnail::after {
 }
 
  .cold_brew_column3{
-    width: 40%;
-    float: left;
     border-left: 2px solid #00000038;
 }
 
 .cold_brew_column1{
-    width: 40%;
-    float: left;
     border-right: 2px solid #00000038;
 }
 
 .cold_brew_column2{
-    width: 16%;
-    float: left;
     font-size: 50px;
     padding: 2em 0em;
     text-align: center;
-
 }
 
-.cold_brew_column4{
-  width: 30%;
-  float: left;
+.cold_brew_column4, .cold_brew_column5{
   padding: 3em 0;
-}
-
-.cold_brew_column5{
-  width: 30%;
-  float: left;
-  padding: 3em 0;
-}
-
-.cold_brew_column6{
-  width: 30%;
-  float: left;
 }
 
 .cold_brew_image{
