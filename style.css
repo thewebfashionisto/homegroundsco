@@ -125,19 +125,19 @@ span.dots{
 
 .grind_your_coffee_perfectly {
   width: 60%;
-  align-content: center;
   margin: 0 auto;
 }
 .common_coffee {
-  background: #E5FCC2;
   padding: 1em 2em;
   margin: 2em 0;
   overflow: auto;
+  border: 1px solid #00000040;
 }
 
 .common_coffee ul {
   padding: 0.5em 0;
 }
+
 
 /* ==========================================================================
    Grid Post
@@ -325,6 +325,7 @@ div.recipe-content{
 /* ==========================================================================
    brazilian Coffee Post
    ========================================================================== */
+
 .fun_fact{
   border-radius: 17px;
   overflow: hidden;
@@ -332,15 +333,19 @@ div.recipe-content{
   background-color: rgba(214, 214, 214, 0.17) !important;
   margin: 2em 1em;
 }
+
 .fun_fact p{
   padding: 12px 20px 0 155px;
 }
+
 .lgc-column{
   height: auto;
 }
+
 .volcanica{
   width: 95px;
 }
+
 .brazilian_button{
   margin-top: 23%;
 }
@@ -348,23 +353,40 @@ div.recipe-content{
 /* ==========================================================================
   Button Style
    ========================================================================== */
+
 a.fasc-button{
   background-color: #e6512b;
 }
+
 .fasc-size-xsmall,
 .fasc-size-small{
   background-color: transparent !important;
   color: #e6512b !important; 
   border: 1px solid !important;
 }
+
 a.fasc-button:hover{
   background-color:#dc7915;
 }
+
 .fasc-size-xsmall:hover,
 .fasc-size-small:hover{
   background-color:#dc7915 !important;
   border-color: #dc7915 !important;
   color: #fff !important;
+}
+
+/* ==========================================================================
+  class icon
+  ===========================================================================*/
+
+.fa-check, .fa-exclamation-triangle{
+  margin-left: -30px;
+  font-size: 20px;
+}
+
+.row_3_col ul{
+  list-style: none;
 }
 
 /* ==========================================================================
