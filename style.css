@@ -60,6 +60,11 @@ span.dots{
     display:none;
 } 
 
+#site-navigation,
+.sticky-enabled .main-navigation.is_stuck{
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.15) !important;
+}
+
 /* ==========================================================================
    Custom Blurbs
    ========================================================================== */
@@ -155,7 +160,7 @@ h4.pt-cv-title {
 .pt-cv-wrapper .btn-success {
   border: 0;
   padding: 0;
-  color: #45ada8;
+  color: #e6512b;
   text-transform: uppercase;
   background-color: transparent;
   font-family: "Montserrat", sans-serif;
@@ -170,9 +175,9 @@ h4.pt-cv-title {
   }
 
 .pt-cv-wrapper .btn-success:hover {
-  color: #FFF;
-  background-color: #45ada8;
-  border-color: #45ada8;
+  color: #fff;
+  background-color: #dc7915;
+  border-color: #dc7915;
 }
 
 /* Hover post featured image style */
@@ -338,6 +343,27 @@ div.recipe-content{
 }
 .brazilian_button{
   margin-top: 23%;
+}
+
+/* ==========================================================================
+  Button Style
+   ========================================================================== */
+.a.fasc-button{
+  background-color: #e6512b;
+}
+.fasc-size-xsmall,
+.fasc-size-small{
+  background-color: transparent !important;
+  color: #e6512b;
+  border: 1px solid;
+}
+.a.fasc-button:hover{
+  background-color:#dc7915;
+}
+.a.fasc-button.fasc-size-xsmall:hover,
+.a.fasc-button.fasc-size-small:hover{
+  background-color:#dc7915;
+  border-color: #dc7915;
 }
 
 /* ==========================================================================
