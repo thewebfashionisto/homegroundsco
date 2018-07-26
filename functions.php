@@ -21,11 +21,13 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
 add_filter( 'generate_sections_sidebars','__return_true' );
 
-add_action( 'generate_before_main_content','tu_sections_title' );function tu_sections_title() {    $use_sections = get_post_meta( get_the_ID(), '_generate_use_sections', TRUE);    if ( isset( $use_sections['use_sections'] ) && 'true' == $use_sections['use_sections'] ) {  
+add_action( 'generate_before_main_content','tu_sections_title' );function tu_sections_title() {    $use_sections = get_post_meta( get_the_ID(), '_generate_use_sections', TRUE);    if ( isset( $use_sections['use_sections'] ) && 'true' == $use_sections['use_sections'] ) { 
+if(is_single()) {
 echo'<div id="generate-section-1" class="generate-sections-container"> ';
 the_post_thumbnail();  
 echo '<div class="inside-grid-column">';   
  the_title( '<h1>', '</h1>' );   
+}
   }}
 
 
