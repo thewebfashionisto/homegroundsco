@@ -354,16 +354,17 @@ div.recipe-content{
 .fasc-size-xsmall,
 .fasc-size-small{
   background-color: transparent !important;
-  color: #e6512b;
-  border: 1px solid;
+  color: #e6512b !important; 
+  border: 1px solid !important;
 }
 .a.fasc-button:hover{
   background-color:#dc7915;
 }
-.a.fasc-button.fasc-size-xsmall:hover,
-.a.fasc-button.fasc-size-small:hover{
-  background-color:#dc7915;
-  border-color: #dc7915;
+.fasc-size-xsmall:hover,
+.fasc-size-small:hover{
+  background-color:#dc7915 !important;
+  border-color: #dc7915 !important;
+  color: #fff !important;
 }
 
 /* ==========================================================================
