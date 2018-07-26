@@ -66,6 +66,48 @@ span.dots{
   box-shadow: 0 2px 3px 0 rgba(0,0,0,.15) !important;
 }
 
+
+.archive .grid-container {
+    max-width: 100%;
+    padding-bottom: none;
+}
+.archive .page-header {
+    display: none;
+}
+
+
+.post-image-aligned-left .inside-article{
+    zoom: 1;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+div.entry-summary {
+  padding-bottom: 50px;
+  border-bottom: 1px dotted #ddd;
+}
+
+.separate-containers .site-main>* {
+    margin-bottom: 0;
+
+}
+.entry-meta {
+    margin-top: 0;
+}
+
+#generate-section-1 .generate-sections-inside-container {
+    padding-top: 0; 
+     padding-bottom: 0; 
+}
+
+.generate-sections-inside-container {
+    padding-left: 0; 
+    padding-right: 0;
+}
+
+
+
 /* ==========================================================================
    Custom Blurbs
    ========================================================================== */
@@ -281,47 +323,109 @@ a.pt-cv-href-thumbnail::after {
   Single Post Page 1
    ========================================================================== */
 
-div.recipe-box{
+.recipe-box{
   position: relative;
   color: #424242;
   width: 100%;
   height: 100%;
   box-shadow: rgba(0, 0, 0, 0.4) 4px 6px 10px;
   background-color: rgba(214, 214, 214, 0.43) !important;
+  margin-top: 5em !important;
 }
 
-div.recipe-title{
+.recipe-box strong{
+  left:0;
+  top:0.90em;
   position: absolute;
-  margin-top: 12px !important;
+  margin-top: 15px !important;
   margin-bottom: -7px !important;
   padding-left: 14px !important;
-  padding-top: 6px !important;
   padding-bottom: 6px !important;
-  width: 25%;
+  padding-top: 6px !important;
+  width: 28%;
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
   clip-path: polygon(0 0, 0 100%, 85% 100%, 100% 50%, 85% 0);
   background: rgb(69, 173, 168);
   color:white;
+  font-size:20px;
 }
 
-div.recipe-content{
+.recipe-box div{
+  margin-bottom:10px;
   position:relative;
-  top:0;
-  left:0;
-  padding-top:5em;
-  padding-left:4em;
+  padding-top:2em;
+  padding-left:1em;
   padding-right:1em;
-  font-size:15px;
-  line-height:3.5em;
+  font-size:16px;
+  line-height:2em;
   background: none;
 }
 
-.recipe-list{
+.recipe-box li{
   background-image:url(http://localhost/homegrounds/wp-content/uploads/2018/07/GG.png);
   background-repeat: no-repeat;
   background-size: 18px 18px;
-  line-height: 1.5em;
+  list-style-type: none;
+  text-indent:25px;
 }
+
+
+.recipe-box ul{
+  margin-left:30px;
+  line-height: 1.2em;
+}
+
+.recipe-box h4{
+  font-size:20px;
+  padding-left:20px;
+  padding-top:10px;
+}
+
+
+
+.recipe-protip-box{
+  border:1px dashed gray ;
+  position: relative;
+  color: #424242;
+  width: 100%;
+  height: auto;
+  background-color: rgba(214, 214, 214, 0.43) !important;  
+  padding-bottom:10px;
+  margin-bottom: 3em;
+  margin-top: -1.5em;
+}
+
+
+
+.recipe-protip-box strong{
+  position: absolute;
+  margin:0;
+  margin-left:-10px;
+  top:30%;
+  padding-left: 14px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  width: 15%;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 85% 100%, 100% 50%, 85% 0);
+  background: rgb(69, 173, 168);
+  color:white;
+  vertical-align: middle;
+}
+
+
+
+.recipe-protip-box li{
+  font-weight:200;
+  font-size:20px;
+  list-style-type: none;
+position:relative;
+margin-top:10x !important;
+padding-left:4em !important;
+padding-right:1em !important;
+margin-bottom:10px !important;
+}
+
 
 /* ==========================================================================
    brazilian Coffee Post
