@@ -348,7 +348,7 @@ div.recipe-content{
 /* ==========================================================================
   Button Style
    ========================================================================== */
-.a.fasc-button{
+a.fasc-button{
   background-color: #e6512b;
 }
 .fasc-size-xsmall,
@@ -357,7 +357,7 @@ div.recipe-content{
   color: #e6512b !important; 
   border: 1px solid !important;
 }
-.a.fasc-button:hover{
+a.fasc-button:hover{
   background-color:#dc7915;
 }
 .fasc-size-xsmall:hover,
