@@ -325,6 +325,7 @@ div.recipe-content{
 /* ==========================================================================
    brazilian Coffee Post
    ========================================================================== */
+
 .fun_fact{
   border-radius: 17px;
   overflow: hidden;
@@ -332,15 +333,19 @@ div.recipe-content{
   background-color: rgba(214, 214, 214, 0.17) !important;
   margin: 2em 1em;
 }
+
 .fun_fact p{
   padding: 12px 20px 0 155px;
 }
+
 .lgc-column{
   height: auto;
 }
+
 .volcanica{
   width: 95px;
 }
+
 .brazilian_button{
   margin-top: 23%;
 }
@@ -348,24 +353,29 @@ div.recipe-content{
 /* ==========================================================================
   Button Style
    ========================================================================== */
+
 a.fasc-button{
   background-color: #e6512b;
 }
+
 .fasc-size-xsmall,
 .fasc-size-small{
   background-color: transparent !important;
   color: #e6512b !important; 
   border: 1px solid !important;
 }
+
 a.fasc-button:hover{
   background-color:#dc7915;
 }
+
 .fasc-size-xsmall:hover,
 .fasc-size-small:hover{
   background-color:#dc7915 !important;
   border-color: #dc7915 !important;
   color: #fff !important;
 }
+
 /* ==========================================================================
   class icon
   ===========================================================================*/
@@ -374,9 +384,11 @@ a.fasc-button:hover{
   margin-left: -30px;
   font-size: 20px;
 }
+
 .row_3_col ul{
   list-style: none;
 }
+
 /* ==========================================================================
    Footer Section
    ========================================================================== */
