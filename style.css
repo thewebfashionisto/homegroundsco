@@ -60,8 +60,9 @@ span.dots{
     display:none;
 } 
 
-#site-navigation,
+.main-navigation,
 .sticky-enabled .main-navigation.is_stuck{
+  position: relative;
   box-shadow: 0 2px 3px 0 rgba(0,0,0,.15) !important;
 }
 
