@@ -346,6 +346,27 @@ div.recipe-content{
 }
 
 /* ==========================================================================
+  Button Style
+   ========================================================================== */
+.a.fasc-button{
+  background-color: #e6512b;
+}
+.fasc-size-xsmall,
+.fasc-size-small{
+  background-color: transparent !important;
+  color: #e6512b;
+  border: 1px solid;
+}
+.a.fasc-button:hover{
+  background-color:#dc7915;
+}
+.a.fasc-button.fasc-size-xsmall:hover,
+.a.fasc-button.fasc-size-small:hover{
+  background-color:#dc7915;
+  border-color: #dc7915;
+}
+
+/* ==========================================================================
    Footer Section
    ========================================================================== */
 
