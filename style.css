@@ -190,6 +190,7 @@ a.archive-readmore:visited{
   width: 60%;
   margin: 0 auto;
 }
+
 .common_coffee {
   padding: 1em 2em;
   margin: 2em 0;
@@ -212,6 +213,7 @@ h4.pt-cv-title {
 }
 
 .pt-cv-title a {
+  color: #547980;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -293,7 +295,7 @@ a.pt-cv-href-thumbnail::after {
   border-color: transparent;
 }
 
-   /* ==========================================================================
+/* ==========================================================================
    Cold Brew
    ==========================================================================*/
 
@@ -335,6 +337,7 @@ a.pt-cv-href-thumbnail::after {
 .kenya_coffe_image{
   width: auto;
 }
+
 .kenya_coffee_image img{
   width: 409px;
 }
@@ -389,7 +392,6 @@ a.pt-cv-href-thumbnail::after {
   text-indent:25px;
 }
 
-
 .recipe-box ul{
   margin-left:30px;
   line-height: 1.2em;
@@ -400,8 +402,6 @@ a.pt-cv-href-thumbnail::after {
   padding-left:20px;
   padding-top:10px;
 }
-
-
 
 .recipe-protip-box{
   border:1px dashed gray ;
@@ -414,8 +414,6 @@ a.pt-cv-href-thumbnail::after {
   margin-bottom: 3em;
   margin-top: -1.5em;
 }
-
-
 
 .recipe-protip-box strong{
   position: absolute;
@@ -433,19 +431,16 @@ a.pt-cv-href-thumbnail::after {
   vertical-align: middle;
 }
 
-
-
 .recipe-protip-box li{
   font-weight:200;
   font-size:20px;
   list-style-type: none;
-position:relative;
-margin-top:10x !important;
-padding-left:4em !important;
-padding-right:1em !important;
-margin-bottom:10px !important;
+  position:relative;
+  margin-top:10x !important;
+  padding-left:4em !important;
+  padding-right:1em !important;
+  margin-bottom:10px !important;
 }
-
 
 /* ==========================================================================
    brazilian Coffee Post
