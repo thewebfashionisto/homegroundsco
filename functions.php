@@ -18,7 +18,6 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 /* ==========================================================================
    single post
    ========================================================================== */
-
 add_filter( 'generate_sections_sidebars','__return_true' );
 
 add_action( 'generate_before_main_content','tu_sections_title' );function tu_sections_title() {    $use_sections = get_post_meta( get_the_ID(), '_generate_use_sections', TRUE);    if ( isset( $use_sections['use_sections'] ) && 'true' == $use_sections['use_sections'] ) { 
@@ -37,10 +36,11 @@ function tu_move_posted_on() {
     add_filter( 'generate_category_list_output', '__return_false' );
 }
 
-    /* ==========================================================================
+/* ==========================================================================
    Archive Page
    ========================================================================== */
 add_filter( 'excerpt_more','tu_image_read_more', 100 );
+
 add_filter( 'the_content_more_link','tu_image_read_more', 100 );
 function tu_image_read_more()
 {
@@ -48,6 +48,7 @@ function tu_image_read_more()
     $title = get_the_title();
     return '</br></br><a class="archive-readmore" href="' . $link . '" title="' . $title . '"> Read more</a>';
 }
+
 /* ==========================================================================
    Embed Fontawesome
    ========================================================================== */
