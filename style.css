@@ -101,11 +101,31 @@ div.entry-summary {
      padding-bottom: 0; 
 }
 
-.generate-sections-inside-container {
-    padding-left: 0; 
-    padding-right: 0;
+a.archive-readmore{
+    border: 0;
+    padding: 0;
+    color: #e6512b;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid;
+    border-radius: 0;
+    padding: 5px 22px;
+    margin-top: 5em;
 }
 
+a.archive-readmore:visited{
+    border: 0;
+    padding: 0;
+    color: #e6512b;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    border: 1px solid;
+    border-radius: 0;
+    padding: 5px 22px;
+    margin-top: 5em;
+}
 
 
 /* ==========================================================================

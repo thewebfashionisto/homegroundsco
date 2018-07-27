@@ -30,8 +30,24 @@ echo '<div class="inside-grid-column">';
 }
   }}
 
+add_action( 'after_setup_theme','tu_move_posted_on' );
+function tu_move_posted_on() {
+    remove_action( 'generate_after_entry_title', 'generate_post_meta' );
+    add_action( 'generate_before_entry_title', 'generate_post_meta' );
+    add_filter( 'generate_category_list_output', '__return_false' );
+}
 
-
+    /* ==========================================================================
+   Archive Page
+   ========================================================================== */
+add_filter( 'excerpt_more','tu_image_read_more', 100 );
+add_filter( 'the_content_more_link','tu_image_read_more', 100 );
+function tu_image_read_more()
+{
+    $link = get_permalink();
+    $title = get_the_title();
+    return '</br></br><a class="archive-readmore" href="' . $link . '" title="' . $title . '"> Read more</a>';
+}
 /* ==========================================================================
    Embed Fontawesome
    ========================================================================== */
