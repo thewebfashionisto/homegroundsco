@@ -532,7 +532,7 @@ a.fasc-button:hover{
   width: 100% !important;
   margin: 0 auto !important;
   padding: 2em 0 !important;
-  height: 400px;
+  height: 445px;
 }
 
 .best_drip_coffee img{
@@ -540,7 +540,7 @@ a.fasc-button:hover{
 }
 
 .first_drip_coffee{
-  padding: 3em 0em 2em;
+  padding: 2em 0em 2em;
 }
 
 .first_drip_coffee strong{
@@ -596,6 +596,10 @@ a.fasc-button:hover{
   list-style: none;
 }
 
+.pros ul li, .cons ul li{
+  padding-bottom: 20px;
+}
+
 /* ==========================================================================
    coffee bloom
    ========================================================================== */
@@ -628,11 +632,11 @@ a.fasc-button:hover{
   width: 100% !important;
   margin: 0 auto !important;
   padding: 2em 0 !important;
-  height: 400px;
+  height: 375px;
 }
 
 .first_coffee_bloom{
-  padding: 3em 0em 2em;
+  padding: 2em 0em 0em;
 }
 
 .first_coffee_bloom strong{
