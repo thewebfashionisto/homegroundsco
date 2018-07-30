@@ -329,6 +329,10 @@ a.pt-cv-href-thumbnail::after {
   margin: 30px 50px;
 }
 
+.cold_brew_column1 ul, .cold_brew_column3 ul{
+  list-style: none;
+}
+
 /* ==========================================================================
    Kenyan Coffee Post
    ========================================================================== */
@@ -514,13 +518,9 @@ a.fasc-button:hover{
   class icon
   ===========================================================================*/
 
-.fa-check, .fa-exclamation-triangle{
+.fa-check, .fa-exclamation-triangle, .fa-times{
   margin-left: -30px;
   font-size: 20px;
-}
-
-.row_3_col ul{
-  list-style: none;
 }
 
 /* ==========================================================================
@@ -528,10 +528,15 @@ a.fasc-button:hover{
   ===========================================================================*/
 
 .best_drip_coffee{
-  border: 1px solid #E93C30;
-  width: 90%;
-  margin: 0 auto;
-  padding: 2em 0;
+  border: 1px solid #E93C30 !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding: 2em 0 !important;
+  height: 400px;
+}
+
+.best_drip_coffee img{
+  width: 265px;
 }
 
 .first_drip_coffee{
@@ -539,17 +544,16 @@ a.fasc-button:hover{
 }
 
 .first_drip_coffee strong{
-  left: 100px;
+  left: 30px;
   position: absolute;
-  margin: -50px 0;
+  width: 16%;
+  clip-path: polygon(0px 0px, 0px 100%, 85% 100%, 100% 50%, 85% 0px);
+  color: white;
   padding-left: 14px !important;
   padding-bottom: 10px !important;
   padding-top: 10px !important;
-  width: 13%;
-  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
-  clip-path: polygon(0 0, 0 100%, 85% 100%, 100% 50%, 85% 0);
-  background: #E93C30;
-  color: white;
+  margin: -50px 0px;
+  background: rgb(233, 60, 48);
 }
 
 .best_drip_read_me{
@@ -558,34 +562,90 @@ a.fasc-button:hover{
 }
 
 .best_drip_pros strong{
-  left: 13%;
+  left: 6%;
   position: absolute;
   margin: -50px 0;
-  padding-bottom: 30px !important;
-  padding-top: 10px !important;
-  width: 22%;
+  padding-bottom: 20px !important;
+  padding-top: 6px !important;
+  width: 29%;
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
   clip-path: polygon(0% 0%, 0% 50%, 50% 100%, 100% 50%, 100% 0);
-  background: #E93C30;
+  background: #9DE0AD;
   color: white;
 }
 
 .best_drip_cons strong{
-  left: 42%;
+  left: 40%;
   position: absolute;
   margin: -50px 0;
-  padding-bottom: 30px !important;
-  padding-top: 10px !important;
-  width: 22%;
+  padding-bottom: 20px !important;
+  padding-top: 6px !important;
+  width: 29%;
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
   clip-path: polygon(0% 0%, 0% 50%, 50% 100%, 100% 50%, 100% 0);
-  background: #E93C30;
+  background: #45ADA8;
   color: white;
 }
 
 .best_drip_cons, .best_drip_pros{
   margin: 3em 0 0;
   padding-bottom: 30px;
+}
+
+.pros ul, .cons ul{
+  list-style: none;
+}
+
+/* ==========================================================================
+   coffee bloom
+   ========================================================================== */
+
+.tip{
+  border: 1px dashed #d6d6d6;
+  height: 80px;
+  vertical-align: middle;
+}
+
+.tip .inside-grid-column{
+  padding-top: 18px;
+}
+
+.pro_tip{
+  position: absolute;
+  padding-left: 14px !important;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+  width: 9%;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 85% 100%, 100% 50%, 85% 0);
+  background: #E93C30;
+  color: white;
+  margin: -5px -20px;
+}
+
+.coffee_bloom{
+  border: 1px solid #E93C30 !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding: 2em 0 !important;
+  height: 400px;
+}
+
+.first_coffee_bloom{
+  padding: 3em 0em 2em;
+}
+
+.first_coffee_bloom strong{
+  left: 30px;
+  position: absolute;
+  width: 16%;
+  clip-path: polygon(0px 0px, 0px 100%, 85% 100%, 100% 50%, 85% 0px);
+  color: white;
+  padding-left: 14px !important;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+  margin: -50px 0px;
+  background: rgb(233, 60, 48);
 }
 
 /* ==========================================================================
