@@ -518,9 +518,17 @@ a.fasc-button:hover{
   class icon
   ===========================================================================*/
 
-.fa-check, .fa-exclamation-triangle, .fa-times{
+.fa-check, .fa-exclamation-triangle, .fa-times, .fa-long-arrow-right{
   margin-left: -30px;
   font-size: 20px;
+}
+
+.fa-check{
+  color: #E5FCC2;
+}
+
+.fa-exclamation-triangle{
+  color: #dc7915;
 }
 
 /* ==========================================================================
@@ -544,7 +552,6 @@ a.fasc-button:hover{
 }
 
 .first_drip_coffee strong{
-  left: 30px;
   position: absolute;
   width: 16%;
   clip-path: polygon(0px 0px, 0px 100%, 85% 100%, 100% 50%, 85% 0px);
@@ -552,7 +559,7 @@ a.fasc-button:hover{
   padding-left: 14px !important;
   padding-bottom: 10px !important;
   padding-top: 10px !important;
-  margin: -50px 0px;
+  margin: -50px -20px;
   background: rgb(233, 60, 48);
 }
 
@@ -650,6 +657,56 @@ a.fasc-button:hover{
   padding-top: 10px !important;
   margin: -50px 0px;
   background: rgb(233, 60, 48);
+}
+
+/* ==========================================================================
+   checkbox
+   ========================================================================== */
+
+.checkbox{
+  background: #E5FCC2;
+  box-shadow: 8px 8px 16px #d6d6d6;
+}
+
+.what_you_need{
+  padding: 2em 0em 2em;
+}
+
+.what_you_need strong{
+  position: absolute;
+  width: 14%;
+  clip-path: polygon(0px 0px, 0px 100%, 85% 100%, 100% 50%, 85% 0px);
+  color: white;
+  padding-left: 14px !important;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+  background: rgb(233, 60, 48);
+}
+
+.checklist{
+  padding: 10px 25px;
+}
+
+.checklist input{
+  margin: 20px 10px;
+}
+
+/* ==========================================================================
+   best-burr-coffee-grinders
+   ========================================================================== */
+
+.favorite_burr_container{
+  border: 1px solid #dc7915;
+  padding: 0px 10px 25px 10px;
+}
+.favorite_burr_header{
+  background: #dc7915;
+  color: #ffffff;
+  padding: 5px 0;
+}
+
+.favorite_burr_container ul{
+  list-style: none;
 }
 
 /* ==========================================================================
