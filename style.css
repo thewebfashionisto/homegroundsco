@@ -518,13 +518,13 @@ a.fasc-button:hover{
   class icon
   ===========================================================================*/
 
-.fa-check, .fa-exclamation-triangle, .fa-times, .fa-long-arrow-right{
+.fa-check, .fa-exclamation-triangle, .fa-times, .fa-arrow-right{
   margin-left: -30px;
   font-size: 20px;
 }
 
 .fa-check{
-  color: #E5FCC2;
+  color: #45bf55;
 }
 
 .fa-exclamation-triangle{
@@ -697,7 +697,7 @@ a.fasc-button:hover{
 
 .favorite_burr_container{
   border: 1px solid #dc7915;
-  padding: 0px 10px 25px 10px;
+  padding: 0px 0px 25px 0px;
 }
 .favorite_burr_header{
   background: #dc7915;
@@ -707,6 +707,10 @@ a.fasc-button:hover{
 
 .favorite_burr_container ul{
   list-style: none;
+}
+
+.burr_grinder_container{
+  background: #E5FCC2;
 }
 
 /* ==========================================================================
