@@ -521,6 +521,7 @@ a.fasc-button:hover{
 .fa-check, .fa-exclamation-triangle, .fa-times, .fa-arrow-right{
   margin-left: -30px;
   font-size: 20px;
+  padding-right: 10px;
 }
 
 .fa-check{
@@ -528,6 +529,10 @@ a.fasc-button:hover{
 }
 
 .fa-exclamation-triangle{
+  color: #dc7915;
+}
+
+.fa-times{
   color: #dc7915;
 }
 
@@ -647,7 +652,6 @@ a.fasc-button:hover{
 }
 
 .first_coffee_bloom strong{
-  left: 30px;
   position: absolute;
   width: 16%;
   clip-path: polygon(0px 0px, 0px 100%, 85% 100%, 100% 50%, 85% 0px);
@@ -655,7 +659,7 @@ a.fasc-button:hover{
   padding-left: 14px !important;
   padding-bottom: 10px !important;
   padding-top: 10px !important;
-  margin: -50px 0px;
+  margin: -50px -20px;
   background: rgb(233, 60, 48);
 }
 
@@ -674,10 +678,10 @@ a.fasc-button:hover{
 
 .what_you_need strong{
   position: absolute;
-  width: 14%;
+  width: 18%;
   clip-path: polygon(0px 0px, 0px 100%, 85% 100%, 100% 50%, 85% 0px);
   color: white;
-  padding-left: 14px !important;
+  padding-left: 7px !important;
   padding-bottom: 10px !important;
   padding-top: 10px !important;
   background: rgb(233, 60, 48);
