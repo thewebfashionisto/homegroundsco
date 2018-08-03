@@ -12,6 +12,17 @@
   Text Domain:  homegroundsco
 */
 
+
+/* ==========================================================================
+   Button
+   ========================================================================== */
+
+button{
+  background-color: #e6512b;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.4) 4px 5px 10px 0px !important;
+}
+
 /* ==========================================================================
    Content Navigation
    ========================================================================== */
@@ -130,19 +141,12 @@ a.archive-readmore:visited{
 .right-sidebar.separate-containers .site-main {
     margin: 20px 20px 20px 0;
     box-shadow: 0 0 3px rgba(1,1,1,0.16);
-}
-/* ==========================================================================
-   Custom Blurbs
-   ========================================================================== */
-
-.pick1 {
-  border: 1px solid #594f4f;
-  border-radius: 14px;
+    max-width: 800px!important;
 }
 
-.our1pick {
-  margin-top: 10px !important;
-}
+
+   
+
 
 /* ==========================================================================
    Sections
@@ -151,7 +155,9 @@ a.archive-readmore:visited{
 .generate-sections-container{
   background: #ffffff;
 }
-
+.generate-sections-inside-container{
+   max-width: 1000px !important;
+}
 /* Our #1 Pick */
 
 .pick1  {
@@ -205,6 +211,59 @@ a.archive-readmore:visited{
   padding: 0.5em 0;
 }
 
+.review-product img{
+    max-width: 100px;
+    z-index: 3;
+    float: left;
+    margin-top: 20px;
+    margin-bottom:60px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.review-product2 img{
+    max-width: 150px;
+    z-index: 3;
+    float: left;
+    margin-top: 20px;
+    margin-bottom:60px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.review-product strong{
+  font-weight:bold;
+  text-align:center;
+  font-size:20px;
+}
+
+.review-product2 strong{
+  font-weight:bold;
+  text-align:center;
+  font-size:20px;
+}
+
+.review-product div{
+  padding-right:10px;
+  padding-left:10px;
+}
+
+.review-product2 div{
+  padding-right:10px;
+  padding-left:10px;
+}
+
+.review-product section{
+  float: left;
+  margin-top:1em;
+  margin-bottom: 2em;
+}
+
+.review-product2 section{
+  float: left;
+  margin-top:1em;
+  margin-bottom: 2em;
+}
 
 /* ==========================================================================
    Grid Post
@@ -350,7 +409,7 @@ a.pt-cv-href-thumbnail::after {
 }
 
 /* ==========================================================================
-  Single Post Page 1
+  Single Post Recipe - Category
    ========================================================================== */
 
 .recipe-box{
@@ -463,6 +522,33 @@ iframe{
   height:387px;
 }
 
+/* ==========================================================================
+  Single Post Reviews - Category
+   ========================================================================== */
+.pick{
+    border: 1px solid #E93C30 !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 2em 0 !important;
+    height: 375px;
+}
+
+.pick h5{
+    position: absolute;
+    width: 16%;
+    clip-path: polygon(0px 0px, 0px 100%, 85% 100%, 100% 50%, 85% 0px);
+    color: white;
+    padding-left: 14px !important;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+    margin-top:-20px;
+    margin-left:-3em;
+    background: rgb(233, 60, 48);
+}
+
+
+
+
 
 /* ==========================================================================
    Brazilian Coffee Post
@@ -498,6 +584,9 @@ iframe{
 
 a.fasc-button{
   background-color: #e6512b;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.4) 4px 5px 10px 0px !important;
+  
 }
 
 .fasc-size-xsmall,
@@ -508,7 +597,8 @@ a.fasc-button{
 }
 
 a.fasc-button:hover{
-  background-color:#dc7915;
+  background-color:rgb(220, 121, 21) !important;
+  background-image: none !important;
 }
 
 .fasc-size-xsmall:hover,
@@ -516,6 +606,39 @@ a.fasc-button:hover{
   background-color:#dc7915 !important;
   border-color: #dc7915 !important;
   color: #fff !important;
+}
+
+a.fasc-size-xlarge{
+    font-size: 20px !important;
+    padding: 8px 28px !important;
+    border: 0 !important;
+    line-height: 33px !important;
+}
+
+a.fasc-size-large{
+    display: block!important;
+    font-family: 'Helvetica';
+    background-color: #E93C30;
+    line-height: 18px;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    color: #fff!important;
+    font-weight: 700!important;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    padding: 10px 14px;
+    width: 78%;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+    transition: .2s linear;
+    -webkit-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.3);
+}
+
+a.fasc-size-large:hover{
+background-color: #B93127!important;
 }
 
 /* ==========================================================================
@@ -612,7 +735,34 @@ a.fasc-button:hover{
   line-height:1em;
   list-style: none;
   padding-bottom: 20px;
-  margin-left:5em;
+  margin-left:3em;
+}
+
+.pros-cons2 ul li{
+  line-height:1em;
+  list-style: none;
+  padding-bottom: 20px;
+  margin-left:3em;
+}
+
+.pros-cons span{
+font-size:20px;
+margin-top: 2em !important;
+padding-bottom:10px !important;
+}
+
+.pros-cons2 span{
+font-size:20px;
+margin-top: 2em !important;
+padding-bottom:10px !important;
+}
+
+.pros-cons2{
+  border-bottom:1px solid #ddd;
+}
+
+.pros-cons2 ul,.pros-cons ul{
+  margin-top:1.5em;
 }
 
 .section-border{
@@ -713,13 +863,14 @@ a.fasc-button:hover{
    ========================================================================== */
 
 .favorite_burr_container{
-  border: 1px solid #dc7915;
+  border: 2px solid #ff1919;
   padding: 0px 0px 25px 0px;
 }
 .favorite_burr_header{
-  background: #dc7915;
+  background-color: #ff1919;
   color: #ffffff;
-  padding: 5px 0;
+  padding-bottom:15px;
+  padding-top:15px; 
 }
 
 .favorite_burr_container ul{
@@ -730,6 +881,9 @@ a.fasc-button:hover{
   background: #E5FCC2;
 }
 
+.favorite_burr_container strong{
+  color: #424242;
+}
 /* ==========================================================================
    Coffee Cocktails
    ========================================================================== */
