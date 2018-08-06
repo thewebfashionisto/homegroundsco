@@ -595,7 +595,7 @@ background-color: #B93127!important;
 
 .pick{
   border: 1px solid #E93C30 !important;
-  width: 100% !important;
+  width: 80% !important;
   margin: 0 auto !important;
   padding: 2em 0 !important;
   height: 445px;
@@ -605,20 +605,31 @@ background-color: #B93127!important;
   width: 265px;
 }
 
-.pick h5{
-  padding: 2em 0em 2em;
-}
+
 
 .pick strong{
+  margin-top: -3em;
+  margin-left:-3em;
   position: absolute;
-  width: 16%;
+  width: 13%;
   clip-path: polygon(0px 0px, 0px 100%, 85% 100%, 100% 50%, 85% 0px);
   color: white;
   padding-left: 14px !important;
   padding-bottom: 10px !important;
   padding-top: 10px !important;
-  margin: -50px -20px;
   background: rgb(233, 60, 48);
+}
+
+.pick h4{
+  margin-top: -2em;
+  color: rgb(84, 84, 84) !important;
+  font-style: italic;
+  font-size:16px;
+}
+
+.pick h3{
+  color:rgb(233, 60, 48);
+  font-size:20px;
 }
 
 .best_drip_read_me{
