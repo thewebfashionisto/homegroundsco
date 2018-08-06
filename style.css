@@ -409,16 +409,15 @@ a.pt-cv-href-thumbnail::after {
 .recipe-box{
   position: relative;
   color: #424242;
-  width: 90%;
-  height: 100%;
+  width: 80%;
+  height: auto;
   box-shadow: rgba(0, 0, 0, 0.4) 4px 6px 10px;
   background-color: rgba(214, 214, 214, 0.43) !important;
-  margin-right:40px;
-  margin-left: 40px;
+  margin: 0 auto;
 }
 
 .recipe-box strong{
-  left:0;
+  left:-50;
   top:0.90em;
   position: absolute;
   margin-top: 15px !important;
@@ -438,8 +437,8 @@ a.pt-cv-href-thumbnail::after {
   margin-bottom:10px;
   position:relative;
   padding-top:2em;
-  padding-left:1em;
-  padding-right:1em;
+  padding-left:0em;
+  padding-right:0em;
   font-size:16px;
   line-height:2em;
   background: none;
@@ -455,13 +454,12 @@ a.pt-cv-href-thumbnail::after {
 
 
 .recipe-box ul{
-  margin-left:30px;
+  margin-left:35px;
   line-height: 1.2em;
 }
 
 .recipe-box h4{
-  font-size:20px;
-  padding-left:20px;
+  font-size:15px;
   padding-top:10px;
 }
 
@@ -899,6 +897,38 @@ padding-bottom:10px !important;
   margin-left: -30px;
   font-size: 20px;
   padding-right: 10px;
+}
+
+/* ==========================================================================
+   how-to-blend-coffee
+   ========================================================================== */
+
+.pro-tip{
+  border: 1px dashed #d6d6d6;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.pro-tip .inside-grid-column{
+  padding-top: 15px;
+}
+.pro-tip .generate-sections-inside-container{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.pro_tip strong{
+  position: absolute;
+  padding-left: 14px !important;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+  width: 9%;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 85% 100%, 100% 50%, 85% 0);
+  background: #E93C30;
+  color: white;
+  margin: 0px -70px;
+  font-size: 20px;
 }
 
 /* ==========================================================================
