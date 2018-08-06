@@ -565,7 +565,6 @@ a.fasc-size-xlarge{
 }
 
 a.fasc-size-large{
-    display: block!important;
     font-family: 'Helvetica';
     background-color: #E93C30;
     line-height: 18px;
@@ -576,7 +575,6 @@ a.fasc-size-large{
     font-size: 14px;
     letter-spacing: 0.2px;
     padding: 10px 14px;
-    width: 78%;
     margin-right: 0px;
     margin-left: 0px;
     text-align: center;
