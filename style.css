@@ -163,38 +163,6 @@ a.archive-readmore:visited{
     padding-right: 90px;
 }
 
-/* Our #1 Pick */
-
-.pick1  {
-  border: 1px solid #594f4f;
-  border-radius: 14px;
-}
-
-.our1pick {
-  margin-top: 10px !important;
-  margin-bottom: -7px !important;
-  padding-left: 14px !important;
-  width: 55%;
-  margin-left: -1%;
-  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
-  clip-path: polygon(0 0, 0 100%, 85% 100%, 100% 50%, 85% 0);
-  background: red;
-}
-
-.our1pick p {
-  color: rgb(255, 255, 255) !important;
-  color: rgb(255, 255, 255) !important;
-  font-size: 23px !important;
-  padding: 6% 3%;
-}
-
-.col1 {
-  float: left;
-  width: 50%;
-  float: left;
-  width: 50%;
-  height: auto;
-}
 
 /* ==========================================================================
    Grinding
@@ -625,7 +593,7 @@ background-color: #B93127!important;
   best-drip-coffee-maker-reviews
   ===========================================================================*/
 
-.best_drip_coffee{
+.pick{
   border: 1px solid #E93C30 !important;
   width: 100% !important;
   margin: 0 auto !important;
@@ -633,15 +601,15 @@ background-color: #B93127!important;
   height: 445px;
 }
 
-.best_drip_coffee img{
+.pick img{
   width: 265px;
 }
 
-.first_drip_coffee{
+.pick h5{
   padding: 2em 0em 2em;
 }
 
-.first_drip_coffee strong{
+.pick strong{
   position: absolute;
   width: 16%;
   clip-path: polygon(0px 0px, 0px 100%, 85% 100%, 100% 50%, 85% 0px);
