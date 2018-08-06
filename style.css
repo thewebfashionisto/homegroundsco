@@ -417,7 +417,7 @@ a.pt-cv-href-thumbnail::after {
 }
 
 .recipe-box strong{
-  left:-50;
+  margin-left: -50px;
   top:0.90em;
   position: absolute;
   margin-top: 15px !important;
@@ -617,6 +617,12 @@ background-color: #B93127!important;
 
 .fa-times{
   color: #ED2A26;
+}
+
+.fa-arrow-alt-circle-right{
+  font-size: 65px;
+  color: #000;
+  margin-left: -20px;
 }
 
 /* ==========================================================================
@@ -931,6 +937,23 @@ padding-bottom:10px !important;
   font-size: 20px;
 }
 
+/* ==========================================================================
+   free-download
+   ========================================================================== */
+
+.free-download{
+  border: 1px dashed rgba(230, 81, 43, 0.71) !important;
+  background-color: rgba(230, 81, 43, 0.61) !important;
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 3px;
+  padding: 0;
+}
+
+.free-download .generate-sections-inside-container strong{
+  font-size: 22px
+}
+ 
 /* ==========================================================================
    Footer Section
    ========================================================================== */
