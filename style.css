@@ -153,14 +153,14 @@ a.archive-readmore:visited{
 
 .generate-sections-container {
     background: #ffffff;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .generate-sections-enabled.one-container .container {
     background: 0 0;
-    padding-left: 95px;
-    padding-right: 95px;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 /* Our #1 Pick */
