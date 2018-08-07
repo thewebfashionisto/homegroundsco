@@ -210,7 +210,7 @@ a.archive-readmore:visited{
 }
 
 .review-product img {
-    max-width: 100px;
+    max-width: 180px;
     z-index: 3;
     float: left;
     margin-top: 20px;
@@ -220,7 +220,7 @@ a.archive-readmore:visited{
 }
 
 .review-product2 img{
-    max-width: 150px;
+    max-width: 180px;
     z-index: 3;
     float: left;
     margin-top: 20px;
