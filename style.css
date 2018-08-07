@@ -361,7 +361,7 @@ a.pt-cv-href-thumbnail::after {
    Cold Brew
    ==========================================================================*/
 
-.cold-brew{
+.cold-brew1{
     width: 80%;
     border: 0px none rgb(66, 66, 66);
     border-radius: 0px;
@@ -374,15 +374,16 @@ a.pt-cv-href-thumbnail::after {
     background-color: #E5FDC3!important;
     margin-left: 4.5em;
     padding-bottom: 30px;
+    overflow-y: hidden;
 }
 
 
-.cold-brew li{
+.cold-brew1 li{
     list-style: none;
 }
 
 
-.cold-brew h1{
+.cold-brew1 h1{
     border-left: 1px solid rgb(186, 186, 186);
     border-right: 1px solid rgb(186, 186, 186);
     text-align: center;
@@ -403,11 +404,12 @@ a.pt-cv-href-thumbnail::after {
     background-color: #E5FDC3!important;
     margin-left: 5em;
     padding-top: 30px;
+    overflow-y: hidden;
 }
 
 .cold-brew2 strong{
   margin-top: -2.5em;
-  }|
+  }
 
 /* ==========================================================================
   Single Post Page 1
