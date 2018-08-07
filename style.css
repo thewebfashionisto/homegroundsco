@@ -291,7 +291,7 @@ h4.pt-cv-title {
   background-color: transparent;
   font-family: "Montserrat", sans-serif;
   border: 1px solid;
-  border-radius: 0;
+  border-radius: 8px;
   padding: 5px 22px;
   margin-top: 25px;
 }
@@ -351,9 +351,9 @@ a.pt-cv-href-thumbnail::after {
 }
 
 /* button, toggle, icons, etc. */
-.pt-cv-wrapper .btn-success.active.focus, .pt-cv-wrapper .btn-success:active, .pt-cv-wrapper .btn-success.active:focus, .pt-cv-wrapper .btn-success.active:hover, .pt-cv-wrapper .btn-success:active.focus, .pt-cv-wrapper .btn-success:active:focus, .pt-cv-wrapper .btn-success:active:hover, .pt-cv-wrapper .open>.dropdown-toggle.btn-success.focus, .pt-cv-wrapper .open>.dropdown-toggle.btn-success:focus, .pt-cv-wrapper .open>.dropdown-toggle.btn-success:hover {
-  background-color: transparent;
   border-color: transparent;
+  background-color: #dc7915;
+
 }
 
 /* ==========================================================================
@@ -529,13 +529,12 @@ iframe{
 
 /* ==========================================================================
   Button Style
-   ========================================================================== */
+   =========================================================================== */
 
 a.fasc-button{
   background-color: #e6512b;
-  border-radius: 8px;
+  border-radius: 8px !important;
   box-shadow: rgba(0, 0, 0, 0.4) 4px 5px 10px 0px !important;
-  
 }
 
 .fasc-size-xsmall,
