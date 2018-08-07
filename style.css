@@ -361,40 +361,53 @@ a.pt-cv-href-thumbnail::after {
    Cold Brew
    ==========================================================================*/
 
-.row_3_col{
-  background: #E5FCC2;
-  padding: 1em 2em;
-  margin: 2em 0;
-  overflow: auto;
+.cold-brew{
+    width: 80%;
+    border: 0px none rgb(66, 66, 66);
+    border-radius: 0px;
+    background-image: none;
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    box-shadow: none;
+    background-color: #E5FDC3!important;
+    margin-left: 4.5em;
+    padding-bottom: 30px;
 }
 
- .cold_brew_column3{
-    border-left: 2px solid #00000038;
+
+.cold-brew li{
+    list-style: none;
 }
 
-.cold_brew_column1{
-    border-right: 2px solid #00000038;
-}
 
-.cold_brew_column2{
-    font-size: 50px;
-    padding: 2em 0em;
+.cold-brew h1{
+    border-left: 1px solid rgb(186, 186, 186);
+    border-right: 1px solid rgb(186, 186, 186);
     text-align: center;
+    padding-top: 3.5em;
+    padding-bottom: 4em;
+    }
+
+.cold-brew2{
+    width: 80%;
+    border: 0px none rgb(66, 66, 66);
+    border-radius: 0px;
+    background-image: none;
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    box-shadow: none;
+    background-color: #E5FDC3!important;
+    margin-left: 5em;
+    padding-top: 30px;
 }
 
-.cold_brew_column4, .cold_brew_column5{
-  padding: 3em 0;
-}
-
-.cold_brew_image{
-  height: auto;
-  width: 150px;
-  margin: 30px 50px;
-}
-
-.cold_brew_column1 ul, .cold_brew_column3 ul{
-  list-style: none;
-}
+.cold-brew2 strong{
+  margin-top: -2.5em;
+  }|
 
 /* ==========================================================================
   Single Post Page 1
