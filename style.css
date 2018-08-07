@@ -334,8 +334,9 @@ a.pt-cv-href-thumbnail::after {
   right: 0;
   bottom: 0;
   color: #fff;
-  content: "\e601";
-  font-family: 'thrvicomoon' !important;
+  content: "\f061";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   line-height: 1;
   background-color: #45ada8;
   padding: 10px;
